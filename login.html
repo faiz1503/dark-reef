@@ -1,0 +1,33 @@
+<?php
+include "config/koneksi.php";
+?>
+<html> 
+  <head> 
+    <title> Form Login Type 1 </title> 
+    <link href="style1.css" rel="stylesheet" type="text/css" > 
+  </head> 
+
+  <body> 
+    <div id="utama"> 
+
+      <div class="header"> 
+
+        <div class="header_isi"> 
+
+          <div class="gambar"> 
+
+            <form action="cek_login.php" method="POST"> 
+              <img src="css/images/logos.png" ><br /><br /> 
+
+              <input type="text" name="username" id="username" placeholder="Username" class="login_regis" required>     <br /> 
+              <input type="password" name="password" id="password" placeholder="Password" class="login_regis" required> <br /> 
+
+              <input type="Submit" name="login" value="Log In" class="tombol_login"> 
+            </form> 
+
+        </div> 
+
+      </div> 
+    </div> 
+  </body> 
+</html>
